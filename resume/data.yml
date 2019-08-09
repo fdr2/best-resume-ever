@@ -1,70 +1,99 @@
 /* #*/ export const PERSON = `
 name:
-  first: John
+  first: Jarosław
   middle:
-  last: Doe
-about: Hi, my name is John Doe. I"m just about the most boring type of person you could
-       possibly imagine. I like collecting leaves from the tree in my back yard and documenting
-       each time I eat a peanut that is non-uniform. I am not a robot. Please hire me.
-position: Software Developer
+  last: Wygoda
+about:
+  Hi, my name is Jarosław Wygoda. I'm more than a programmer, I'm a problem solver.
+  My day-to-day work involves understanding business needs and expressing it in software.
+  I'm a back end engineer with strong devops skills and experience in developing user interfaces.
+position: Python Developer
 
 birth:
-  year: 1990
-  location: New York
+  year: 1996
+  location: Kraków
 
 experience:
-- company: Company A
-  position: Developer
-  timeperiod: since January 2016
-  description: Programming and watching cute cat videos.
+- company: Netguru
+  position: Python Developer
+  timeperiod: since October 2018
+  description: >
+    Developing platform managing and optimising online advertising campaigns.
+    Collaborating with London based advertising agency.
+    Supporting R&D initiatives, estimating projects, presales activities, participating in scoping sessions and expert calls, code reviews.
+    Technologies: Python, Django, Postgres, Docker, Terraform, CloudFormation, Zappa (serverless), AWS services, BigQuery, Git
+  website: https://netguru.com/
 
-- company: Company B
-  position: Frontend Developer
-  timeperiod: January 2015 - December 2015
-  description: Fulfillment of extremely important tasks.
+- company: WhiteAster
+  position: Python Developer
+  timeperiod: January 2018 - October 2018
+  description: >
+    Integrating machine learning solutions.
+    Collaborating with New York based fintech company providing daily cashflow to Amazon suppliers.
+    Technologies: Python, Django, Flask, TensorFlow, Pandas, NumPy, SciPy, JavaScript, Vue.js, AWS services, Git
+  website: https://whiteaster.com/
 
-- company: Company C
-  position: Trainee
-  timeperiod: March 2014 - December 2014
-  description: Making coffee and baking cookies.
+- company: Freelancing
+  position: Python Developer
+  timeperiod: October 2016 - January 2018
+  description: >
+    Developing e-commerce platforms, content management systems, web scraping scripts and payment gateways.
+    Some projects I worked on: Project management system and lead generation scripts for advertisement company Q-Graf.
+    Payment system for Tylicz ski resort.
+    Technologies: Python, Django, Wagtail, django-payments, Saleor, Docker, Javascript, Git
 
 education:
-- degree: Master of Arts
-  timeperiod: March 2012 - December 2013
-  description: Major in Hacking and Computer Penetration, University A, New York, USA.
-
-- degree: Bachelor of Science
-  timeperiod: March 2009 - December 2011
-  description: Major in Engineering, University B, Los Angeles, USA.
+- degree: Music School - Cello
+  timeperiod: 2008 - 2016
+  description: I was going to be a musician before I fell in love with programming
 
 # skill level goes 0 to 100
 skills:
-- name: HTML5
-  level: 99
-- name: CSS3
-  level: 95
-- name: JavaScript
-  level: 97
-- name: Node.js
-  level: 93
-- name: Angular 2
-  level: 60
-- name: TypeScript
-  level: 80
-- name: ES.Next
-  level: 70
+- name: Python
+- name: Django
+- name: Flask
 - name: Docker
-  level: 99
-knowledge: Also proficient in Adobe Photoshop and Illustrator, grew up bilingual
-  (English and Klingon).
+- name: Terraform
+- name: CloudFormation
+- name: JavaScript
+- name: Vue.js
+- name: Git
+- name: Go
+knowledge: I've recently participated in Google Ads API Workshop in London.
+
+projects:
+- name: Rundki.pl
+  platform: Django
+  description: I'm a founder of rundki.pl, a speed dating platform based on Django.
+               It's deployed on AWS Lambda with Zappa, a serverless deployment utility.
+               Infrastructure is managed with Terraform, tool managing infrastructure as code.
+  url: https://rundki.pl
+
+hobbies:
+- name: Video Games
+  iconClass: fa fa-gamepad
+  url: https://example.com
+
+- name: Drawing
+  iconClass: fa fa-pencil
+  url: https://example.com
+
+contributions:
+- name: Django
+  description: Added support for PEP 487 to Django models.
+  url: https://github.com/django/django
+
+- name: google-ads-python
+  description: Added support for loading config from environment variables.
+  url: https://github.com/googleads/google-ads-python
 
 contact:
-  email: john.doe@email.com
-  phone: 0123 456789
-  street: 1234 Broadway
-  city: New York
-  website: johndoe.com
-  github: johnyD
+  email: wygoda.jaroslaw@gmail.com
+  phone: +48517663382
+  street: Rakowicka 22h/78a, Kraków
+  city: Kraków
+  website: https://www.linkedin.com/in/jarosław-wygoda-869039155
+  github: jwygoda
 # en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, ka, nl, he, zh-tw, lt, ko, el
 lang: en
 `
