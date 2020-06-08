@@ -14,28 +14,26 @@ birth:
   location: Kraków
 
 experience:
-- position: Homeppl
-  timeperiod: since May 2020
-  description: >
-    As a consultant I've helped Homeppl team migrate django application to microservices architecture.
-  website: https://homeppl.com/
-
-- position: PatientSource
-  timeperiod: October 2019 - April 2020
-  description: >
-    As a consultant I've helped PatientSource team introduce devops-centered development process and support them with day-to-day development process.
-  website: https://patientsource.co.uk/
-
-- position: Netguru
-  timeperiod: October 2018 - September 2019
+<<<<<<< HEAD
+- company: Netguru
+  position: Python Developer
+  timeperiod: since October 2018
   description: >
     Developing platform managing and optimising online advertising campaigns.
     Collaborating with London based advertising agency.
     Supporting R&D initiatives, estimating projects, presales activities, participating in scoping sessions and expert calls, code reviews.
     Technologies: Python, Django, Postgres, Docker, Terraform, CloudFormation, Zappa (serverless), AWS services, BigQuery, Git
   website: https://netguru.com/
+=======
+- company: Company A
+  position: Developer
+  timeperiod: since January 2016
+  description: Programming and watching cute cat videos.
+  website: https://example.com
+>>>>>>> 496ebf9a12946c73cbceac94b0cdc2ce529fbf61
 
-- position: WhiteAster
+- company: WhiteAster
+  position: Python Developer
   timeperiod: January 2018 - October 2018
   description: >
     Integrating machine learning solutions.
@@ -43,7 +41,8 @@ experience:
     Technologies: Python, Django, Flask, TensorFlow, Pandas, NumPy, SciPy, JavaScript, Vue.js, AWS services, Git
   website: https://whiteaster.com/
 
-- position: Freelancing
+- company: Freelancing
+  position: Python Developer
   timeperiod: October 2016 - January 2018
   description: >
     Developing e-commerce platforms, content management systems, web scraping scripts and payment gateways.
@@ -52,9 +51,20 @@ experience:
     Technologies: Python, Django, Wagtail, django-payments, Saleor, Docker, Javascript, Git
 
 education:
+<<<<<<< HEAD
 - degree: Music School - Cello
   timeperiod: 2008 - 2016
-  description: I was going to be a musician before I fell in love with programming.
+  description: I was going to be a musician before I fell in love with programming
+=======
+- degree: Master of Arts
+  timeperiod: March 2012 - December 2013
+  description: Major in Hacking and Computer Penetration, University A, New York, USA.
+  website: https://example.com
+
+- degree: Bachelor of Science
+  timeperiod: March 2009 - December 2011
+  description: Major in Engineering, University B, Los Angeles, USA.
+>>>>>>> 496ebf9a12946c73cbceac94b0cdc2ce529fbf61
 
 # skill level goes 0 to 100
 skills:
@@ -68,7 +78,24 @@ skills:
 - name: Vue.js
 - name: Git
 - name: Go
-knowledge: My main domain of expertise are Django web applications.
+knowledge: I've recently participated in Google Ads API Workshop in London.
+
+projects:
+- name: Rundki.pl
+  platform: Django
+  description: I'm a founder of rundki.pl, a speed dating platform based on Django.
+               It's deployed on AWS Lambda with Zappa, a serverless deployment utility.
+               Infrastructure is managed with Terraform, tool managing infrastructure as code.
+  url: https://rundki.pl
+
+hobbies:
+- name: Video Games
+  iconClass: fa fa-gamepad
+  url: https://example.com
+
+- name: Drawing
+  iconClass: fa fa-pencil
+  url: https://example.com
 
 contributions:
 - name: Django
@@ -79,11 +106,31 @@ contributions:
   description: Added support for loading config from environment variables.
   url: https://github.com/googleads/google-ads-python
 
+projects:
+- name: best-resume-ever
+  platform: Vue
+  description: 👔 💼 Build fast 🚀 and easy multiple beautiful resumes and create your best CV ever! Made with Vue and LESS.
+  url: https://github.com/salomonelli/best-resume-ever
+
+hobbies:
+- name: Video Games
+  iconClass: fa fa-gamepad
+  url: https://example.com
+
+- name: Drawing
+  iconClass: fa fa-pencil
+  url: https://example.com
+
+contributions:
+- name: best-resume-ever
+  description: 👔 💼 Build fast 🚀 and easy multiple beautiful resumes.
+  url: https://github.com/salomonelli/best-resume-ever
+
 contact:
-  email: jaroslaw@wygoda.me
+  email: wygoda.jaroslaw@gmail.com
   phone: +48517663382
+  street: Rakowicka 22h/78a, Kraków
   city: Kraków
-  street: Kraków
   website: https://www.linkedin.com/in/jarosław-wygoda-869039155
   github: jwygoda
 # en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, ka, nl, he, zh-tw, lt, ko, el

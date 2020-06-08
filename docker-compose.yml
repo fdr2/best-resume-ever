@@ -1,0 +1,14 @@
+version: '3.7'
+
+services:
+  bre:
+    image:
+      bre
+    build:
+      context: .
+    command:
+      sh -c "npm run dev"
+    volumes:
+      - .:/app
+    ports:
+      - "8080:8080"
