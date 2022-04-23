@@ -1,4 +1,6 @@
 /* #*/ export const PERSON = `
+# Any fields left unchanged, please delete so your resume is fully yours!
+
 name:
   first: Jarosław
   middle:
@@ -12,6 +14,8 @@ position: Python Developer
 birth:
   year: 1996
   location: Kraków
+
+# you may add more experiences by duplicating the template
 
 experience:
 - position: Homeppl
@@ -56,7 +60,7 @@ education:
   timeperiod: 2008 - 2016
   description: I was going to be a musician before I fell in love with programming.
 
-# skill level goes 0 to 100
+# skill level goes from 0 to 100
 skills:
 - name: Python
 - name: Django
